@@ -4,12 +4,12 @@ Uma aplicação web de gerenciamento de tarefas (TODO) construída com Django.
 
 ## Funcionalidades
 
-- ✅ Criar novos TODOs
-- ✏️ Editar TODOs existentes
-- 🗑️ Deletar TODOs
-- 📅 Atribuir datas de vencimento
-- ✓ Marcar TODOs como resolvidos/não resolvidos
-- 🎨 Interface moderna e responsiva
+-  Criar novos TODOs
+-  Editar TODOs existentes
+-  Deletar TODOs
+-  Atribuir datas de vencimento
+-  Marcar TODOs como resolvidos/não resolvidos
+-  Interface moderna e responsiva
 
 ## Requisitos
 

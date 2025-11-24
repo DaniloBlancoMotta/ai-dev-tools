@@ -1,0 +1,19 @@
+{% extends 'todos/base.html' %}
+
+{% block title %}Delete TODO{% endblock %}
+
+{% block content %}
+<div class="confirm-message">
+    <h2>⚠️ Confirm Deletion</h2>
+    <p>Are you sure you want to delete "<strong>{{ todo.title }}</strong>"?</p>
+    <p style="color: #e53e3e; margin-top: 10px;">This action cannot be undone.</p>
+</div>
+
+<form method="post" style="margin-bottom: 0;">
+    {% csrf_token %}
+    <div class="confirm-actions">
+        <button type="submit" class="btn btn-danger">🗑 Yes, Delete</button>
+        <a href="{% url 'todo_list' %}" class="btn btn-primary">↩ No, Go Back</a>
+    </div>
+</form>
+{% endblock %}
